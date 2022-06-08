@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tos428config
+Comment=tos428 configuration tool
+Exec=/opt/tos428config/bin/tos428config
+Icon=tos428config
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=TOS;
+MimeType=application/ogg;application/x-ogg;
