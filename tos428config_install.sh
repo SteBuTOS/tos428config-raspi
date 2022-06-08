@@ -12,5 +12,4 @@ sudo cp -v tos428config.desktop /usr/share/applications/tos428config.desktop
 ## grant rights
 sudo chmod +xwr /usr/lib/libtos428.so
 sudo chmod +xwr /opt/tos428config/bin/tos428config
-
-
+sudo chmod +xwr tos428config_uninstall.sh
