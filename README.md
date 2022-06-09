@@ -6,10 +6,10 @@ Download package
 ```
 cd /home/pi
 git clone https://github.com/SteBuTOS/tos428config-raspi tos428config-raspi
-cd tos428config-raspi
 ```
 Update the system and grant some execution rights for package scripts. The update process can take some time. The system will be automatically rebooted at the end.
 ```
+cd /home/pi/tos428config-raspi
 sudo chmod +xwr installPrepare.sh
 ./installPrepare.sh
 ```
