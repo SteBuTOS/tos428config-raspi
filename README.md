@@ -15,7 +15,7 @@ sudo chmod +xwr installPrepare.sh
 ```
 The application requires some X11 desktop and Retropie comes without.
 You can check if a desktop is already installed by typing 'startx' on the command line.
-In case 'command not found' is returned, you need to install a desktop (Pixel) by executing the following script:
+In case 'command not found' is returned, you need to install a desktop (Pixel) by executing the following script. The installation process can take some time.
 ```
 /home/pi/tos428config-raspi/installDesktop.sh
 ```
