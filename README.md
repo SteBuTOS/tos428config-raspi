@@ -2,6 +2,7 @@
 Configuration tool for TOS GRS Switchable 4-to-8-Way Restrictor
 
 ## Installation
+The Raspberry-Pi must have a working connection to the internet.`
 Download package
 ```
 cd /home/pi
