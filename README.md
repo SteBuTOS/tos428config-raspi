@@ -8,19 +8,22 @@ cd /home/pi
 git clone https://github.com/SteBuTOS/tos428config-raspi tos428config-raspi
 cd tos428config-raspi
 ```
-Update the system and grant some execution rights for package scripts
+Update the system and grant some execution rights for package scripts. The update process can take some time. The system will be automatically rebooted at the end.
 ```
+sudo chmod +xwr installPrepare.sh
 ./installPrepare.sh
 ```
 The application requires some X11 desktop and Retropie comes without.
 You can check if a desktop is already installed by typing 'startx' on the command line.
 In case 'command not found' is returned, you need to install a desktop (Pixel) by executing the following script:
 ```
+cd /home/pi/tos428config-raspi
 sudo chmod +xwr installDesktop.sh
 ./installDesktop.sh
 ```
 Install the application itself
 ```
+cd /home/pi/tos428config.raspi
 sudo chmod +xwr tos428config_install.sh
 ./tos428config_install.sh
 ```
