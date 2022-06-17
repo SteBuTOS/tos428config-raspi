@@ -23,7 +23,8 @@ In case 'command not found' is returned, you need to install a desktop (Pixel) b
 ```
 Install the application itself
 ```
-/home/pi/tos428config-raspi/tos428config_install.sh
+cd /home/pi/tos428config-raspi
+./tos428config_install.sh
 ```
 
 ## Uninstall
